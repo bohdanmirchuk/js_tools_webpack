@@ -1,0 +1,27 @@
+{
+  "name": "js_tools_webpack",
+  "version": "1.0.0",
+  "description": "js_tools_webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bohdanmirchuk/js_tools_webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bohdanmirchuk/js_tools_webpack/issues"
+  },
+  "homepage": "https://github.com/bohdanmirchuk/js_tools_webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {}
+}
